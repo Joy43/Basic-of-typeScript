@@ -24,3 +24,26 @@ let person = {
     isCaption: true,
 };
 person.name = 'sakib';
+// specifix variable3
+let a;
+let b;
+let c = [];
+// number or string
+let f = [];
+// object
+let g;
+// -----------dynamic type------------------------
+let ab;
+ab = 5;
+ab = 'sumit';
+// --------arry 
+let abb = [];
+abb.push('bangle');
+abb.push(34);
+console.log(abb);
+// ------object
+let bcd;
+bcd = {
+    name: 'bangladesbh',
+    age: 45
+};

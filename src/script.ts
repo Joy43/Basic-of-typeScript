@@ -38,3 +38,29 @@ name:string,
 age:number,
 adult:boolean
 }
+// -----------dynamic type------------------------
+
+let ab:any;
+ab=5;
+ab='sumit'
+// --------arry 
+let abb :any[]=[]
+abb.push('bangle')
+abb.push(34)
+console.log(abb)
+// ------object
+let bcd:{
+name:any,
+age:any
+}
+bcd={
+    name:'bangladesbh',
+    age:45
+}
+
+// ------------function=========
+const myFunc=()=>{
+    console.log("hello");
+    
+}
+
